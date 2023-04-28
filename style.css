@@ -1,0 +1,280 @@
+* {
+  font-family: Candara;
+  color: #444444 ;
+}
+
+.container{
+  width: 100%;
+}
+
+#head {
+  width: 100%;
+  overflow: auto;
+  background-color: #fff4ed;
+}
+
+.banner {
+  width: 100%;
+  background-color: aqua;
+  float: right;
+  box-sizing: border-box;
+  background-color: #fff4ed;
+}
+
+.banner img{
+  height: 40px;
+}
+
+
+#head-link {  
+  overflow: hidden;  
+  background-color: #A0C3D2;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+#head-link a {  
+  float: center;  
+  display: inline-block;  
+  color: #444444;  
+  text-align: center;  
+  padding: 14px 50px;  
+  margin: 0px 50px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+}
+
+#head-link a:hover {  
+  background-color: #F7C4AF ;  
+  color: #444444;  
+  font-weight: bold;
+  transform: scale(1.2);
+}
+
+.content{
+  font-family: Candara;
+  background-color: #FFFBF5;
+}
+
+.content::after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+#left, #content, #right {
+  width: 25%;
+  float: left;
+  box-sizing: border-box;
+  padding: 30px 30px;
+  background-color: #FFFBF5;
+}
+
+.most-used-languages {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 500px;
+}
+
+.language {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.bar {
+  height: 15px;
+  width: 100%;
+  background-color: #fff4ed;
+  margin-bottom: 5px;
+  position: relative;
+}
+
+.progress {
+  height: 100%;
+  background-color: #A0C3D2;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.percent {
+  font-size: 12px;
+  color: black;
+  margin-right: 5px;
+}
+
+.name {
+  font-weight: ;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+
+#content #content-head #content-left #avata img {
+  border-radius: 50%;
+  width: 150px;
+  padding-left: auto;
+  display: block;
+  padding-top: 20px;
+  /**margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 30px;**/
+}
+
+.content #left #info h2{
+  font-family: Candara;
+  font-size: 16px;
+}
+
+.content #left #info {
+
+}
+
+#content  {
+  border-radius: 10%;
+}
+
+#content #content-head #content-left {
+  width: 45%;
+  float: left;
+  box-sizing: border-box;
+  padding: 30px 40px;
+  height: 220px;
+  text-align: ;
+}
+
+#content #content-head #content-right {
+  width: 55%;
+  float: left;
+  box-sizing: border-box;
+  padding: 15px  20px 20px 30px;
+  height: 220px;
+}
+
+#content {
+  width: 50%;
+  background-color: #fff4ed;
+  padding: 20px 50px;
+}
+
+#content h2 {
+  font-size: 18px;
+}
+
+#content img {
+  margin-top: -35px;
+  width: 50px;
+}
+
+#content p {
+  text-align: justify;
+}
+
+#right {
+  background-color: #FFFBF5;
+}
+
+#right img {
+  height: 50px;
+}
+
+.content #right #advertisement img {
+  width: 100%;
+  height: 100%;
+  padding: 0px 0px 30px 0px;
+}
+
+footer {
+  background-color: #A0C3D2;
+}
+
+footer #footer-left {
+  width: 30%;
+  float: left;
+  box-sizing: border-box;
+  padding: 0px 30px;
+  background-color: #A0C3D2;
+  height: 360px;
+}
+
+#footer-left img{
+  height: 40px;
+}
+
+footer #footer-right, #footer-center {
+  width: 35%;
+  float: left;
+  box-sizing: border-box;
+  padding: 0px 30px;
+  background-color: #A0C3D2;
+  height: 360px;
+}
+
+footer p {
+}
+
+
+footer #footer-right .containerForm .formBox .inputBox input,
+ footer #footer-right .containerForm .formBox .inputBox textarea{
+     width: 100%;
+     padding: 5px 0;
+     resize: none;
+     font-size: 18px;
+     font-weight: 400;
+     color: #333;
+     border: none;
+     border-bottom: 1px solid #777;
+     outline: none;
+ }
+footer #footer-right .containerForm .formBox .inputBox textarea{
+     min-height: 120px;
+ }
+footer #footer-right .containerForm .formBox .inputBox input[type="submit"]{
+     position: relative;
+     cursor: pointer;
+     background: #fff4ed;
+     color: black;
+     border: none;
+     max-width: 150px;
+     padding: 12px;
+     float:right;
+     transition: all 0.2s ease-in-out;
+ }
+footer #footer-right .containerForm .formBox .inputBox input[type="submit"]:hover{
+     background:  #F7C4AF;
+     transform: scale(1.2);
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
